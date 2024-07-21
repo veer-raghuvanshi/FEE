@@ -1,0 +1,21 @@
+section{
+    border: 2px solid #ff0606;
+    padding: 1rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+@media(max-width: 520px){
+    section{
+        background-color: rgb(247, 107, 0);
+    }
+}
+
+@media(orientation:landscape){
+    section p{
+        color: antiquewhite;
+    }
+}
+

@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    background-color: crimson;
+}
+.container>div{
+    background-color: lightpink;
+    margin: 10px;
+    padding:20px;
+
+}

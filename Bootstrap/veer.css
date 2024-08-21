@@ -1,0 +1,117 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #050505;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 30px;
+    color: #dc3545 !important;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: #343a40 !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #dc3545 !important;
+}
+
+.icons i {
+    font-size: 20px;
+    color: #343a40;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: #dc3545;
+}
+
+/* Hero Section */
+.hero {
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #000000; /* Change this to a darker shade */
+    font-weight: 9000; 
+}
+
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .btn-danger {
+    padding: 10px 30px;
+    font-size: 18px;
+}
+
+/* Featured Products */
+.featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Specials Section */
+.specials {
+    background-color: #000000;
+}
+
+.special-item img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.special-item h5 {
+    margin-bottom: 5px;
+}
+
+.special-item p {
+    margin-bottom: 10px;
+}
+
